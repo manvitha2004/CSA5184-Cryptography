@@ -1,4 +1,4 @@
-def toLowerCase(text): return text.lower()
+ def toLowerCase(text): return text.lower()
 def removeSpaces(text): return "".join(i for i in text if i != " ")
 def Diagraph(text): return [text[i:i+2] for i in range(0, len(text), 2)]
 def FillerLetter(text):
